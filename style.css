@@ -1,0 +1,33 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: rgb(190, 204, 199);
+  padding: 15px 50px;
+  border-radius: 30px;
+}
+
+.screen {
+  background-color: rgb(114, 129, 91);
+  color: aliceblue;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 40px;
+}
+.buttons h4 {
+  font-size: large;
+  padding: 30px;
+  background-color: rgb(83, 83, 83);
+  color: aliceblue;
+  border-radius: 8px;
+}
+.buttons h4.operator {
+  background-color: rgb(116, 114, 114);
+}/*# sourceMappingURL=style.css.map */
