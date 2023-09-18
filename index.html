@@ -9,34 +9,34 @@
 <body>
     <div class="center">
         <div class="calculator">
-            <h1 class="screen">500</h1>
+            <h1 class="screen">000</h1>
             <div class="buttons center">
-                <h4 class="operator">clear</h4>
-                <h4 class="operator">delete</h4>
+                <h4 onclick="saveUserInputValue('clear')" class="operator">clear</h4>
+                <h4 onclick="saveUserInputValue('delete')" class="operator">delete</h4>
             </div>
             <div class="buttons">
-                <h4>7</h4>
-                <h4>8</h4>
-                <h4>9</h4>
-                <h4 class="operator">÷</h4>
+                <h4 onclick="saveUserInputValue(7)">7</h4>
+                <h4 onclick="saveUserInputValue(8)">8</h4>
+                <h4 onclick="saveUserInputValue(9)">9</h4>
+                <h4 onclick="saveUserInputValue('/')" class="operator">÷</h4>
             </div>
             <div class="buttons">
-                <h4>4</h4>
-                <h4>5</h4>
-                <h4>6</h4>
-                <h4 class="operator">x</h4>
+                <h4 onclick="saveUserInputValue(4)">4</h4>
+                <h4 onclick="saveUserInputValue(5)">5</h4>
+                <h4 onclick="saveUserInputValue(6)">6</h4>
+                <h4 onclick="saveUserInputValue('*')" class="operator">x</h4>
             </div>
             <div class="buttons">
-                <h4>1</h4>
-                <h4>2</h4>
-                <h4>3</h4>
-                <h4 class="operator">-</h4>
+                <h4 onclick="saveUserInputValue(1)">1</h4>
+                <h4 onclick="saveUserInputValue(2)">2</h4>
+                <h4 onclick="saveUserInputValue(3)">3</h4>
+                <h4 onclick="saveUserInputValue('-')" class="operator">-</h4>
             </div>
             <div class="buttons">
                 <h4>!</h4>
-                <h4>0</h4>
-                <h4>=</h4>
-                <h4 class="operator">+</h4>
+                <h4 onclick="saveUserInputValue(0)">0</h4>
+                <h4 onclick="saveUserInputValue('=')">=</h4>
+                <h4 onclick="saveUserInputValue('+')" class="operator">+</h4>
             </div>
         </div>
     </div>
